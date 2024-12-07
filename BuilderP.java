@@ -35,7 +35,7 @@ public class BuilderP {
                 this.storage = storage;
                 return this;
             }        
-            public Computer build(BuilderP bp){
+            public Computer build(BuilderP bp){ // Since qwe are in outer BuilderP class
                 return bp.new Computer(this);
             } 
         }  

@@ -51,7 +51,7 @@ public class FacadeP {
     }
 
     public static void main(String[] args){
-        Facade facade = new FacadeP().new Facade();
+        Facade facade = new FacadeP().new Facade(); // this facadeP is needed cos it is the outer class. therefore need instance
 
         facade.playMedia("audio");
         facade.playMedia("video");

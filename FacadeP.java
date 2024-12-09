@@ -55,7 +55,7 @@ public class FacadeP {
 
         facade.playMedia("audio");
         facade.playMedia("video");
-        facade,playMedia("unknown");
+        facade.playMedia("unknown");
     }
     
 }

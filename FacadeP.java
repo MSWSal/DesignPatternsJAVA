@@ -54,6 +54,8 @@ public class FacadeP {
         Facade facade = new FacadeP().new Facade();
 
         facade.playMedia("audio");
+        facade.playMedia("video");
+        facade,playMedia("unknown");
     }
     
 }

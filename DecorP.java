@@ -81,7 +81,7 @@ public class DecorP {
         System.out.println(myCoffee.getDescription() + "Cost = "+ myCoffee.cost());
 
         myCoffee = new DecorP().new MilkDecorator(myCoffee);
-        System.out.println(myCoffee.getDescription()+ "Cost" );
+        System.out.println(myCoffee.getDescription()+ "Cost" + myCoffee.cost());
 
 
     }
